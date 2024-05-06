@@ -158,7 +158,6 @@ if __name__ == "__main__":
     select_tasks_by_status((Statuses.NEW.value,))
     update_task_status((Statuses.COMPLETED.value, 1))
     select_users_without_tasks()
-    select_tasks_by_status((Statuses.NEW.value,))
     select_tasks_with_status_except((Statuses.COMPLETED.value,))
     delele_task_by_id((3,))
     select_users_by_email_like(".com")
